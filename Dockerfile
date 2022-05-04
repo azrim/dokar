@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM debian:unstable-slim
 MAINTAINER azrim
 
 COPY ["setup.sh", "/"]
