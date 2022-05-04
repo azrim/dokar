@@ -1,4 +1,4 @@
-FROM ubuntu:devel
+FROM ubuntu:latest
 MAINTAINER azrim
 
 COPY ["setup.sh", "/"]
